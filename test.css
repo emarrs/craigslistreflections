@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+#logo{
+    width: 500px;
+    margin-left: 20px;
+    position: fixed;
+    top: 1px;
+    z-index: -1;
+}
+
+#abq{
+    width: 300px;
+    position: fixed;
+    bottom: 630px;
+    right: 30px;
+    z-index: -1;
+}
+
+#page{
+    background-image: url(topomap.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 3037px 2200px;
+    width: 3037px;
+    height: 2100px;
+}
+
+p{
+    background-color: lightgrey;
+    color: mediumblue;
+    padding-left: 4px;
+    z-index: -1;
+    font-size: 11pt;
+}
+
+.intro{
+    width: 180px;
+    margin-left: 50px;
+    padding-left: 10px;
+    position: fixed;
+    top: 100px;
+    left: 373px;
+}
+
+.detail{
+    width: 210px;
+    position: relative;
+    left: 1200px;
+    top: 20px;
+}
+
+.abstract{
+    width: 370px;
+    position: relative;
+    left: 15px;
+    top: 83px
+}
+
+#question{
+    width: 30px;
+}
+
+#contain{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img.div{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#compass{
+    position: fixed;
+    top: 600px;
+    left: 35px;
+}
+
+#scale{
+    width: 207px;
+    position: fixed;
+    top: 660px;
+    left: 204px;
+}
+
+#scalep{
+    width: 207px;
+    position: fixed;
+    top: 635px;
+    left: 204px;
+    text-align: center;
+}
+
+.longlat{
+    border: 
+    1px dashed grey;
+    width: 4000px;
+    height: 190px;
+}
+
+#longbox{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.lat{
+    border: 
+    1px dashed grey;
+    height: 900px;
+    width: 206px;
+}
+
+#latbox{
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+
+div{
+    display: inline-block;
+/*    border: 2px dotted green;*/
+}
+
+.box{
+/*    border: 4px solid red;*/
+    width: 49%;
+    padding-left: 50px;
+}
+
+.empty{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+div.emptyrow{
+    height: 0px;
+    display: block;
+}
+
+div.emptysm{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.dot{
+    background-image: url(handmirror.gif) contain;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
+}
+
+.thumb{
+    opacity: 0;
+    background-color: yellow;
+}
+
+.thumb:hover{
+    opacity: 1;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.riorancho{
+    width: 50%;
+}
+
+.santafe{
+    width: 45%;
+}
+
+.nw{
+    height: 400px;
+}
+
+.neheights{
+    width: 45%;
+}
+
+.sw{
+    position: relative;
+    bottom: 100px;
+}
+
+.se{
+    width: 45%;
+    height: 2000px;
+}
+
+#upleft{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}
+
+#upright{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+#bottomleft{
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+
+#downright{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#thin{
+    width: 100px;
+}
+
+#short{
+    height: 100px;
+}
